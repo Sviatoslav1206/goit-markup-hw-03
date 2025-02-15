@@ -6,21 +6,45 @@ font-family: 'Roboto', sans-serif;
 
 a {
     text-decoration: none;
+    margin: 0 auto;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0 0 0 0;
+    padding: 0;
 }
 
 ul, ol {
     list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
 }
 
 button {
     cursor: pointer;
 }
 
-.header {
-
+.container {
+    max-width: 1128px;
+        padding-left: 15px; 
+        padding-right: 15px;
+        margin: 0 auto;
 }
 
-.nav-header {}
+.container-header {
+    display: flex;
+    align-items: center;
+}
+
+.header {
+border-bottom: 1px solid #e7e9fc;
+}
+
+
+.nav-header { 
+    display: flex;
+}
 
 .logo-header {
 font-family: "Raleway", sans-serif;
@@ -30,7 +54,11 @@ font-family: "Raleway", sans-serif;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    padding: 24px 0 ;
+    margin-right: 76px;
+   
 }
+
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -43,9 +71,16 @@ font-family: "Raleway", sans-serif;
 
 .list-studio {
     color: #2e2f42;
+    padding: 24px 0 ;
+    display: block;
 }
 
-.item-list-header {}
+.item-list-header {
+display: flex;
+align-items: center;
+gap: 40px;
+
+}
 
 .list-header {
     font-weight: 500;
@@ -62,9 +97,14 @@ font-family: "Raleway", sans-serif;
 
 .address {
     font-style: normal;
+    margin-left: auto;
 }
 
-.nav-href {}
+.nav-href {
+display: flex;
+align-items: center;
+gap: 40px;
+}
 
 .nav-tel-mail {font-weight: 400;
     font-size: 16px;
@@ -79,20 +119,33 @@ font-family: "Raleway", sans-serif;
 
 .adress-nav {
     color: #434455;
+    display: block;
+    padding: 24px 0;
 }
 
 .hero {
     background: #2e2f42;
 }
 
+.container-hero {
+    max-width: 496px;
+    align-items: center;
+    padding-top: 188px;
+    margin: 0 0 48px 0;
+}
+
 .hero-title {
-    font-weight: 700;
+font-weight: 700;
         font-size: 56px;
         line-height: 1.07;
         letter-spacing: 0.02em;
         text-align: center;
         color: #fff;
+        
+    
 }
+
+
 
 .hero-btn {
     font-family: 'Roboto', sans-serif;
