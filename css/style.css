@@ -294,11 +294,12 @@ border-top-left-radius: 0px;
 .portfolio {
     display: flex;
     flex-wrap: wrap;
-    gap: 24px;
+    row-gap: 48px;
    
 }
 
 .item-list-portfolio {
+    margin-bottom: 48px;
     width: calc((100% - 48px) / 3);
 }
 
