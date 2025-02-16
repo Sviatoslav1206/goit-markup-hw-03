@@ -330,7 +330,7 @@ border-top-left-radius: 0px;
 
 .footer {
     background-color: #2e2f42;
-    padding: 100px 0 100px 156px;
+    padding: 100px 0 100px;
 }
 
 .logo-footer {
@@ -342,7 +342,7 @@ border-top-left-radius: 0px;
         text-transform: uppercase;
         color: #4d5ae5;
         margin-bottom: 16px;
-        display: block;
+        display: inline-block;
         padding: 24px 0;
 }
 
