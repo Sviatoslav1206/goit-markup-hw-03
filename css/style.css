@@ -81,7 +81,6 @@ font-family: "Raleway", sans-serif;
 
 .item-list-header {
 display: flex;
-align-items: center;
 gap: 40px;
 
 }
@@ -146,7 +145,7 @@ font-weight: 700;
         padding-top: 188px;
         margin: 0 auto;
         margin-bottom: 18px;
-        max-width: 590px;
+        max-width: 496px;
         align-items: center; 
 }
 
@@ -160,6 +159,7 @@ font-weight: 700;
     letter-spacing: 0.04em;
     color: #fff;
     background-color: #4d5ae5;
+    
     display: block;
         margin: 0 auto;
         min-width: 169px;
@@ -306,7 +306,8 @@ font-weight: 700;
 
 }
 
-.our-portfolio-list {font-weight: 500;
+.our-portfolio-list {
+    font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
