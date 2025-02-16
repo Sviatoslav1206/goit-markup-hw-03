@@ -194,7 +194,7 @@ font-weight: 700;
     align-items: center;
     padding: 120px 0;
     gap: 24px;
-        width:calc((100% - 72px) / 4);
+        flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .list-feature {}
