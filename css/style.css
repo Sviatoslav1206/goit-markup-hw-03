@@ -49,7 +49,7 @@ border-bottom: 1px solid #e7e9fc;
 
 .nav-header { 
     display: flex;
-    align-items: none;
+    align-items: center;
 }
 
 .logo-header {
