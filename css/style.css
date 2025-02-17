@@ -297,7 +297,7 @@ border-top-left-radius: 0px;
 .portfolio {
     display: flex;
     flex-wrap: wrap;
-    row-gap: 48px;
+    column-gap: 24px;
    
 }
 
