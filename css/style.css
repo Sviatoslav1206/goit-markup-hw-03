@@ -197,10 +197,12 @@ font-weight: 700;
     align-items: center;
     padding: 120px 0;
     gap: 24px;
-        flex-basis: calc((100% - 3 * 24px) / 4);
+       
 }
 
-.list-feature {}
+.list-feature {
+    width :calc((100% - 3 * 24px) / 4);
+}
 
 .list-text-feauture { 
     font-weight: 500;
